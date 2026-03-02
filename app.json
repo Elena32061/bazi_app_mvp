@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Bazi Flow",
+    "slug": "bazi-flow",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#14110E"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yujiangnan.baziflow"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#14110E"
+      },
+      "package": "com.yujiangnan.baziflow"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
